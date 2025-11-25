@@ -57,3 +57,23 @@ This project involves a step-by-step process of penetration testing: scan of net
 <img src="https://i.imgur.com/MVQch2H.png" height="80%" width="80%" />
 <br />
 <br />
+
+
+### Weak Credentials Checks Path 
+<img src="https://i.imgur.com/nKzHVSS.png" height="80%" width="80%" />
+<br />
+<br />
+
+
+### Search through the results/output using keywords/terms
+<img src="https://i.imgur.com/AJ7HkSN.png" height="80%" width="80%" />
+<br />
+<br />
+
+
+### Automate with Resource File Path
+<img src="https://i.imgur.com/C47ZI7A.png" height="80%" width="80%" />
+<br />
+<br />
+
+
