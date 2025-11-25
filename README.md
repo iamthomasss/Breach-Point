@@ -47,7 +47,7 @@ This project involves a step-by-step process of penetration testing: scan of net
 <br />
 
 
-### Scanning in progress
+### Basic Scan in progress
 <img src="https://i.imgur.com/6KI43Z3.png" height="80%" width="80%" />
 <br />
 <br />
@@ -77,3 +77,38 @@ This project involves a step-by-step process of penetration testing: scan of net
 <br />
 
 
+### Execute the RC file
+<img src="https://i.imgur.com/wiMFb5y.png" height="80%" width="80%" />
+<br />
+<img src="https://i.imgur.com/XK207LT.png" height="80%" width="80%" />
+<br />
+
+
+### Search through the results/output using '.rc'
+<img src="https://i.imgur.com/hfsHqK6.png" height="80%" width="80%" />
+<br />
+<br />
+
+
+### Generating a payload
+<img src="https://i.imgur.com/akJ1cJs.png" height="80%" width="80%" />
+<br />
+<br />
+
+
+### Search through the results/output using 'elf'
+<img src="https://i.imgur.com/YPHKSt4.png" height="80%" width="80%" />
+<br />
+<br />
+
+
+### Generate Data Exfiltration script containing OS-Specific Commands
+<img src="https://i.imgur.com/0Nf5eqx.png" height="80%" width="80%" />
+<br />
+<br />
+
+
+### Full Scan in Progress
+<img src="https://i.imgur.com/BtnFeOm.png" height="80%" width="80%" />
+<br />
+<br />
