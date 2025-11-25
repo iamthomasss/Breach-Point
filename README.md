@@ -23,7 +23,34 @@ This project involves a step-by-step process of penetration testing: scan of net
 
 ## Skills Learned
 
-1. 
+1. Bash Fundamentals: writing functions, using loops and conditional logic.
+2. Input Validation: Using a while loop and a regular expression to validate user input (network format).
+3. File and Directory Management: Creating directories, setting default paths, and writing output to files.
+4. Command Line Utility Integration: Integrating and controlling multiple command-line tools (Nmap, Hydra, msfconsole, Searchsploit) within a single script.
+5. Variable Manipulation: Setting and retriecing environemtn and custom variables.
+6. System Information Gathering: Using standard Linux commands like 'ifconfig', 'grep', 'tail', and 'awk' to determine the IP address.
+7. Host Discovery: Using '-Pn' (skip host discovery) and scanning a target network range.
+8. Port Scanning: Conducting TCP and UDP scans, including comprehensive port scanning (-p- for all ports in full scan).
+9. Service Version Detection: Using '-sV' to identify the application running on open ports.
+10. OS Detection: Using '-O' to fingerprint the target operating system.
+11. Nmap Scripting Engine (NSE): Utilising key NSE script categories:
+    . default: Standard scripts for service enumeration
+    . brute: check weak/default credentials
+    . vuln: detect common vulnerabilities
+12. Output Management: Saving Nmap results in multiple formats (-oA) for later analysis.
+13. Vulnerability Mapping: Using Searchsploit to cross-reference Nmap XML output against the Exploit-DB database to find known exploits for identified services/versions.
+14. Brute-Force Attack: Using Hydra (hydra -L -P) to perform dictionary attacks against common network services using a provided list of usernames and passwords.
+15. Resource File Generation: Creating Metasploit Resource Files to automate complex actions such as:
+    . Exploiting SSH login
+    . Setting up a multi/handler for reverse connections
+    . Using the 'local_exploit_suggester' post module.
+16. Payload Generation: Using msfvenom to create custom shellcode/executables with specific settings.
+17. Data Staging: Generating platform-specific command chains for:
+    . Location Sensitive Files: Using 'find' (Linux) or 'dir/findstr' (Windows Powershell) to searh for files containing keywords like "password".
+    . Archiving: Compressing files using 'zip' or 'Compress-Archive'.
+    . Encoding: In Linux, use 'base64' or in windows using 'certutil -encode'
+    . Exfiltration: Generate a command 'scp' to securely copy the encoded datas back to the system. 
+   
 
 
 ## Tools Used
@@ -32,6 +59,28 @@ This project involves a step-by-step process of penetration testing: scan of net
 2. Hydra (SSH, RDP, FTP, SMB modules)
 3. Metasploit (msfconsole & msfvenom)
 
+
+## Results 
+
+### Network Scan Output
+1. Basic and Full scan outputs in gnmap, nmap and xml format
+2. Displays of open ports in both TCP/UDP, service versions, weak passwords and vulnerabilities (in both NSE and Searchsploit)
+
+### Weak Credentials Output
+1. Hydra brute-force over the services (SSH, RDP, FTP and SMB) against either user lists or default lists; logging each service's results into user's indicated directory
+
+### RC File Generation Output
+1. Automates the RC file creation for SSH login scan, handler, or suggester
+2. An option to allow the user to choose if they would like to execute the '.rc' file in msfconsole
+
+### Payload Generation
+1. Prompts for payload type, LHOST/LPORT, format and filename and saves to chosen directory
+
+### Data Exfiltration
+1. Write to a shell script containing OS-specific commands (linux or windows) to look for files containing specific keywords, compress it into a zip file, encode into base64 and ultimately scp to the attacker machine.
+
+   
+   
 
 ## Screenshots of project
 
