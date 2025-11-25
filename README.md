@@ -12,12 +12,12 @@ This project involves a step-by-step process of penetration testing: scan of net
 
 ### Features of the Project:
 1. Network Scan: Basic or Full Scan; including service version, weak passwords and vulnerabilities.
-2. Attack Paths
-   . Weak Credentials: Check for weak passwords in SSH, RDP, FTP and SMB
-   . RC File Generation: Allows for user to choose which .rc file to generate
-   . Payload Generation: Allows for user to create a payload
-   . Data Exfiltration: Allows user to create script for data exfiltration
-4. Interactive Search: Allows for user to search through the results/outputs. 
+2. Attack Paths <br />
+   . Weak Credentials: Check for weak passwords in SSH, RDP, FTP and SMB <br />
+   . RC File Generation: Allows for user to choose which .rc file to generate <br />
+   . Payload Generation: Allows for user to create a payload <br />
+   . Data Exfiltration: Allows user to create script for data exfiltration <br />
+4. Interactive Search: Allows for user to search through the results/outputs. <br />
 <br />
 <br />
 
