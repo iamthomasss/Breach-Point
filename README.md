@@ -3,50 +3,57 @@
 
 ## Objective
 
-The objective of this project is to develop a simple and effective port scanning tool that identify which ports are open on a target system. This tool aims to give us an understanding of network security by utilizing Python’s socket module to probe systems and retrieve service banners, providing insights into potential vulnerabilities.
+The objective of this project is to develop an automated phase of penetration testing which include network reconnaissance, credential brute-forcing, exploit preparation, payload creation and data exfiltration. 
 
 
 ## Overview
 
-This project involves creating a port scanning tool used to probe a target system or network to identify which ports are open and listening for connections. This project introduces beginners to key cybersecurity concepts like networking, sockets, and TCP/UDP communication while strengthening Python skills.
+This project involves a step-by-step process of penetration testing: scan of network, logging each step, and allowing the user to inspect or re-run any phase on demand. It generates a structured output in user-input directory and concludes with a search tool to review the results. 
 
-### Features of the Port Scanner:
-1. Accepts a target IP address or hostname.
-2. Allows the user to specify a range of ports to scan.
-3. Scans for open TCP or UDP ports.
-4. Prints the results (open ports) in a user-friendly format.
-5. Retrieve and display service banners for open ports.
-6. Save scan results to a file for later analysis.
-7. Add functionality to ping a range of IPs to discover live hosts.
-8. Speed up scanning by checking multiple ports simultaneously (Multi-Threading).
+### Features of the Project:
+1. Network Scan: Basic or Full Scan; including service version, weak passwords and vulnerabilities.
+2. Attack Paths
+   . Weak Credentials: Check for weak passwords in SSH, RDP, FTP and SMB
+   . RC File Generation: Allows for user to choose which .rc file to generate
+   . Payload Generation: Allows for user to create a payload
+   . Data Exfiltration: Allows user to create script for data exfiltration
+4. Interactive Search: Allows for user to search through the results/outputs. 
+
 
 
 ## Skills Learned
 
-1. Implement both TCP and UDP port scanning techniques to identify open services on a target.
-2. Mapping port numbers to service names using socket.getservbyport.
-3. Learned to use threading module to perform port and ping scanning concurrently, speeding up the scanning process.
-4. Learnt to implement thread safety using a 'threading.lock' when updating shared resources.
-5. Convert between dotted-decimal IP addresses and their integer representation for easy range iteration.
-6. Taking user input for targets, port ranges, and IP ranges.
-7. Exporting results to an external file.
-8. Using 'try . . . except' blocks to handle potential errors such as network timeouts, unknown services, or failed command execution. 
+1. 
 
 
 ## Tools Used
 
-1. Socket module
-2. Threading module
-3. subprocess module
-4. input() module
-5. open() module
+1. Nmap + NSE (default, brute, vuln scripts) & Searchsploit
+2. Hydra (SSH, RDP, FTP, SMB modules)
+3. Metasploit (msfconsole & msfvenom)
 
 
 ## Screenshots of project
 
-### Using the target IP address to run the port scanner
+### Go to the directory where the script is located in and run the script
+<img src="https://i.imgur.com/L595l36.png" height="80%" width="80%" />
+<br />
+<br />
 
 
+### Key in the target ip address and output directory name. Next, select whether do you want to do a Basic or Full Scan.
+<img src="https://i.imgur.com/35Fnbve.png" height="80%" width="80%" />
+<br />
+<br />
 
-### Using target Hostname to run the port scanner
 
+### Scanning in progress
+<img src="https://i.imgur.com/6KI43Z3.png" height="80%" width="80%" />
+<br />
+<br />
+
+
+### Scan is complete with the information exported to a file. Next, select either attack path to continue or exit. 
+<img src="https://i.imgur.com/MVQch2H.png" height="80%" width="80%" />
+<br />
+<br />
