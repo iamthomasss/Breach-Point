@@ -4,7 +4,7 @@
 ## Objective
 
 The objective of this project is to develop an automated phase of penetration testing which include network reconnaissance, credential brute-forcing, exploit preparation, payload creation and data exfiltration. 
-
+<br />
 
 ## Overview
 
@@ -18,7 +18,8 @@ This project involves a step-by-step process of penetration testing: scan of net
    . Payload Generation: Allows for user to create a payload
    . Data Exfiltration: Allows user to create script for data exfiltration
 4. Interactive Search: Allows for user to search through the results/outputs. 
-
+<br />
+<br />
 
 
 ## Skills Learned
@@ -50,7 +51,8 @@ This project involves a step-by-step process of penetration testing: scan of net
     . Archiving: Compressing files using 'zip' or 'Compress-Archive'.
     . Encoding: In Linux, use 'base64' or in windows using 'certutil -encode'
     . Exfiltration: Generate a command 'scp' to securely copy the encoded datas back to the system. 
-   
+<br />
+<br />
 
 
 ## Tools Used
@@ -58,7 +60,8 @@ This project involves a step-by-step process of penetration testing: scan of net
 1. Nmap + NSE (default, brute, vuln scripts) & Searchsploit
 2. Hydra (SSH, RDP, FTP, SMB modules)
 3. Metasploit (msfconsole & msfvenom)
-
+<br />
+<br />
 
 ## Results 
 
@@ -78,7 +81,8 @@ This project involves a step-by-step process of penetration testing: scan of net
 
 ### Data Exfiltration
 1. Write to a shell script containing OS-specific commands (linux or windows) to look for files containing specific keywords, compress it into a zip file, encode into base64 and ultimately scp to the attacker machine.
-
+<br />
+<br />
    
    
 
