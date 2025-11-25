@@ -53,7 +53,7 @@ This project involves a step-by-step process of penetration testing: scan of net
 <br />
 
 
-### Scan is complete with the information exported to a file. Next, select either attack path to continue or exit. 
+### Basic Scan is complete with the information exported to a file. Next, select either attack path to continue or exit. 
 <img src="https://i.imgur.com/MVQch2H.png" height="80%" width="80%" />
 <br />
 <br />
@@ -111,4 +111,25 @@ This project involves a step-by-step process of penetration testing: scan of net
 ### Full Scan in Progress
 <img src="https://i.imgur.com/BtnFeOm.png" height="80%" width="80%" />
 <br />
+<br />
+
+
+### Full Scan with Searchsploit Analysis is complete with the information exported to a file. Next, select either attack path to continue or exit. 
+<img src="https://i.imgur.com/EOB0Iwi.png" height="80%" width="80%" />
+<br />
+<img src="https://i.imgur.com/maLV81a.png" height=80%" width="80%" />
+<br />
+
+
+### Exiting the script
+<img src="https://i.imgur.com/kcuaZSq.png" height="80%" width="80%" />
+<br />
+
+
+### Exported files for analysis 
+<img src="https://i.imgur.com/DU1Ad5X.png" height="80%" width="80%" />
+<br />
+<img src="https://i.imgur.com/2eIt5Mm.png" height="80%" width="80%" />
+<br />
+<img src="https://i.imgur.com/uTUde6g.png" height="80%" width="80%" />
 <br />
