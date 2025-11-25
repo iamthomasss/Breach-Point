@@ -24,32 +24,64 @@ This project involves a step-by-step process of penetration testing: scan of net
 
 ## Skills Learned
 
-1. Bash Fundamentals: writing functions, using loops and conditional logic.
-2. Input Validation: Using a while loop and a regular expression to validate user input (network format).
-3. File and Directory Management: Creating directories, setting default paths, and writing output to files.
-4. Command Line Utility Integration: Integrating and controlling multiple command-line tools (Nmap, Hydra, msfconsole, Searchsploit) within a single script.
-5. Variable Manipulation: Setting and retriecing environemtn and custom variables.
-6. System Information Gathering: Using standard Linux commands like 'ifconfig', 'grep', 'tail', and 'awk' to determine the IP address.
-7. Host Discovery: Using '-Pn' (skip host discovery) and scanning a target network range.
-8. Port Scanning: Conducting TCP and UDP scans, including comprehensive port scanning (-p- for all ports in full scan).
-9. Service Version Detection: Using '-sV' to identify the application running on open ports.
-10. OS Detection: Using '-O' to fingerprint the target operating system.
-11. Nmap Scripting Engine (NSE): Utilising key NSE script categories:
-    . default: Standard scripts for service enumeration
-    . brute: check weak/default credentials
+1. <b>Bash Fundamentals</b>: writing functions, using loops and conditional logic.
+   <br />
+   <br />
+2. <b>Input Validation</b>: Using a while loop and a regular expression to validate user input (network format).
+   <br />
+   <br />
+3. <b>File and Directory Management</b>: Creating directories, setting default paths, and writing output to files.
+   <br />
+   <br />
+4. <b>Command Line Utility Integration</b>: Integrating and controlling multiple command-line tools (Nmap, Hydra, msfconsole, Searchsploit) within a single script.
+   <br />
+   <br />
+5. <b>Variable Manipulation</b>: Setting and retriecing environemtn and custom variables.
+   <br />
+   <br />
+6. <b>System Information Gathering</b>: Using standard Linux commands like 'ifconfig', 'grep', 'tail', and 'awk' to determine the IP address.
+   <br />
+   <br />
+7. <b>Host Discovery</b>: Using '-Pn' (skip host discovery) and scanning a target network range.
+    <br />
+    <br />
+8. <b>Port Scanning</b>: Conducting TCP and UDP scans, including comprehensive port scanning (-p- for all ports in full scan).
+    <br />
+    <br />
+9. <b>Service Version Detection</b>: Using '-sV' to identify the application running on open ports.
+    <br />
+    <br />
+10. <b>OS Detection</b>: Using '-O' to fingerprint the target operating system.
+    <br />
+    <br />
+12. <b>Nmap Scripting Engine (NSE)</b>: Utilising key NSE script categories: <br />
+    . default: Standard scripts for service enumeration <br />
+    . brute: check weak/default credentials <br />
     . vuln: detect common vulnerabilities
-12. Output Management: Saving Nmap results in multiple formats (-oA) for later analysis.
-13. Vulnerability Mapping: Using Searchsploit to cross-reference Nmap XML output against the Exploit-DB database to find known exploits for identified services/versions.
-14. Brute-Force Attack: Using Hydra (hydra -L -P) to perform dictionary attacks against common network services using a provided list of usernames and passwords.
-15. Resource File Generation: Creating Metasploit Resource Files to automate complex actions such as:
-    . Exploiting SSH login
-    . Setting up a multi/handler for reverse connections
+    <br />
+    <br />
+12. <b>Output Management</b>: Saving Nmap results in multiple formats (-oA) for later analysis.
+    <br />
+    <br />
+13. <b>Vulnerability Mapping</b>: Using Searchsploit to cross-reference Nmap XML output against the Exploit-DB database to find known exploits for identified services/versions.
+    <br />
+    <br />
+14. <b>Brute-Force Attack</b>: Using Hydra (hydra -L -P) to perform dictionary attacks against common network services using a provided list of usernames and passwords.
+    <br />
+    <br />
+15. <b>Resource File Generation</b>: Creating Metasploit Resource Files to automate complex actions such as: <br />
+    . Exploiting SSH login <br />
+    . Setting up a multi/handler for reverse connections <br />
     . Using the 'local_exploit_suggester' post module.
-16. Payload Generation: Using msfvenom to create custom shellcode/executables with specific settings.
-17. Data Staging: Generating platform-specific command chains for:
-    . Location Sensitive Files: Using 'find' (Linux) or 'dir/findstr' (Windows Powershell) to searh for files containing keywords like "password".
-    . Archiving: Compressing files using 'zip' or 'Compress-Archive'.
-    . Encoding: In Linux, use 'base64' or in windows using 'certutil -encode'
+    <br />
+    <br />
+17. <b>Payload Generation</b>: Using msfvenom to create custom shellcode/executables with specific settings.
+    <br />
+    <br />
+18. <b>Data Staging</b>: Generating platform-specific command chains for: <br />
+    . Location Sensitive Files: Using 'find' (Linux) or 'dir/findstr' (Windows Powershell) to searh for files containing keywords like "password". <br />
+    . Archiving: Compressing files using 'zip' or 'Compress-Archive'. <br />
+    . Encoding: In Linux, use 'base64' or in windows using 'certutil -encode' <br />
     . Exfiltration: Generate a command 'scp' to securely copy the encoded datas back to the system. 
 <br />
 <br />
